@@ -23,13 +23,13 @@
   <main>
     <div class="wrap policy">
       <h1>ChartSnap Privacy Policy</h1>
-      <p class="muted">Effective date: July 2, 2026</p>
+      <p class="muted">Effective date: November 18, 2026</p>
 
       <p>ChartSnap is built to know as little about you as possible: no account, no name, no email, no ads, no third-party analytics. Unlike most 8greyscale apps, ChartSnap is not fully offline — producing a chart read requires our server — so this policy explains exactly what is sent and why.</p>
 
       <h2>What we collect</h2>
       <ul>
-        <li><strong>Chart photos you submit.</strong> When you scan or upload a chart, that image is sent over HTTPS to our analysis server and forwarded to an AI vision API (Anthropic) to produce your analysis. Photos are processed to serve your request and are not used to build advertising profiles.</li>
+        <li><strong>Chart photos you submit.</strong> When you scan or upload a chart, that image is sent over HTTPS to our analysis server and forwarded through OpenRouter, an AI model router, to a Google Gemini vision model (currently Gemini 3.1 Flash-Lite) to produce your analysis. Photos are processed to serve your request and are not used to build advertising profiles.</li>
         <li><strong>An anonymous device identifier.</strong> A random identifier — not your name, email, or Apple ID — is used server-side to enforce the free-scan limit and fair use.</li>
       </ul>
 
